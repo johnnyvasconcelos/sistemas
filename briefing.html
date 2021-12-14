@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Briefing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="responsividade.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="menu div-menu">
+    <span>
+        <i class="fa fa-bars menu-icon"></i>
+        <i class="fa fa-times close-icon"></i>
+    </span>
+    <ul class="menu-ul">
+        <li><a href="https://johnnyvasconcelos.com">Voltar ao site</a></li>
+        <li><a href="#">Resetar</a></li>
+    </ul>
+</div>
+
+    <section class="formulario">
+<h2>Formulário De Criação De Website</h2>
+<h6>Preencha os campos para ir para a próxima etapa</h6>
+<div class="etapas">
+    <div class="etapa etapa-1"><span class="ico first active"><i class="fas fa-user fai"></i></span><h5>Dados</h5></div>
+    <div class="etapa etapa-2"><span class="ico second"><i class="fas fa-building fai"></i></span><h5>Empresa</h5></div>
+    <div class="etapa etapa-3"><span class="ico third"><i class="fas fa-highlighter fai"></i></span><h5>Criação</h5></div>
+    <div class="etapa etapa-1"><span class="ico last"><i class="fas fa-clipboard-check fai"></i></span><h5>Fim</h5></div>
+</div>
+<form method="post" action="formulario.php">
+<div class="form first-form">
+    <div class="input-area w-50 p-right">
+        <input name="nome" id="nome" placeholder="Nome" required>
+        </div>
+
+        <div class="input-area w-50 p-left">
+            <input type="email" placeholder="Email" id="email" name="email">
+        </div>
+
+        <div class="input-area w-50 right p-right">
+            <input name="empresa" id="empresa" placeholder="Empresa" required>
+        </div>
+
+        <div class="input-area w-50 p-left">
+            <input name="ramo" placeholder="Ramo" id="ramo" required>
+        </div>
+
+        <div class="input-area w-50 p-right">
+            <input type="tel" placeholder="Whatsapp cliente" id="whatsapp" name="whatsapp">
+        </div>
+
+        <div class="input-area w-50 p-left">
+            <input type="tel" placeholder="Whatsapp empresa" id="whatsapp-empresa" name="whatsapp-empresa">
+        </div>
+
+        <div class="input-area w-100">
+            <input type="text" placeholder="Redes sociais da empresa (separados por vírgula)" id="redes-sociais" name="redes-sociais">
+        </div>
+    </div>
+
+    <div class="form second-form">
+
+
+        <div class="input-area w-80 p-right">
+            <input name="produto" placeholder="Produtos e serviços prestados pela empresa:" id="produto" required>
+        </div>
+
+        <div class="input-area w-20 p-left">
+            <input type="text" placeholder="Horário" name="horario" id="horario">
+        </div>
+
+        <div class="input-area w-100">
+            <input type="text" name="descricao" placeholder="Uma breve descrição da empresa:" id="descricao" required>
+        </div>
+
+        <div class="input-area w-70 p-right">
+            <input type="text" placeholder="Slogan da empresa (para o banner)" name="slogan" id="slogan">
+        </div>
+
+        <div class="input-area w-30 p-left">
+            <input type="text" placeholder="cnpj/Insc. Est." name="cnpj" id="cnpj">
+        </div>
+
+    </div>
+
+    <div class="form third-form">
+
+        <div class="input-area w-100">
+            <textarea placeholder="O que você espera realizar com o site?" id="porque" name="porque"></textarea>
+        </div>
+
+        <div class="input-area w-100">
+            <textarea placeholder="O que você espera que os usuários façam em seu site?" id="usuarios" name="usuarios"></textarea>
+        </div>
+
+
+        <div class="input-area w-30 p-right">
+            <input type="number" placeholder="Páginas" id="paginas" name="paginas">
+        </div>
+        
+        <div class="input-area w-70 p-left">
+            <select name="alteracao" id="alteracao" required>
+                <option value="0">Precisa fazer alterações recorrentes?</option>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+        </div>
+        
+        <div class="input-area w-100">
+            <input type="text" placeholder="Sites de concorrentes (máx 3)" id="concorrentes" name="concorrentes">
+        </div>
+        
+        <div class="input-area w-100">
+            <input type="text" placeholder="Sites bonitos em termos de aparência (máx 3)" id="sites-bonitos" name="sitesbonitos">
+        </div>
+
+        </div>
+
+        <div class="form forty-form">
+
+            <div class="input-area w-68 p-right">
+                <input type="text" name="logotipo" id="logotipo" placeholder="Logotipo (drive ou email)">
+            </div>
+
+            <div class="input-area w-32 p-left">
+                <input type="file" name="logotipo-img" id="logotipo-img" name="logotipo-img">
+            </div>
+
+        <div class="input-area w-60 p-right p-right">
+            <input type="text" placeholder="Domínio e hospedagem?" name="dominio" id="dominio">
+            </div>
+            
+            <div class="input-area w-40 p-left">
+                <input type="text" placeholder="Cores da marca" name="cores" id="cores">
+            </div>
+            
+            <div class="input-area w-100">
+                <textarea placeholder="Observações adicionais" name="observacoes" id="observacoes"></textarea>
+            </div>
+
+    </div>
+
+    <button type="button" class="button">Próxima Etapa</button>
+    <button type="button" class="button-2">Próxima Etapa</button>
+    <button type="button" class="button-3">Próxima Etapa</button>
+    <button type="button" class="button-4">Enviar</button>
+</form>
+
+    </section>
+
+
+
+
+  
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      data-auto-a11y="true"></script>
+    <script src="script.js"></script>
+</body>
+</html>

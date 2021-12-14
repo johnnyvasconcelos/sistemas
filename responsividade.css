@@ -1,0 +1,61 @@
+@media (max-width: 800px) {
+    .formulario .etapas .etapa .ico::after {
+        left: 100%;
+        width: 100%;
+            }
+        
+            .formulario .etapas .etapa .ico::before {
+        right: 100%;
+        width: 100%;
+            }
+            .menu-ul {
+                box-shadow: 2px 2px 5px #636363aa;
+            }
+        
+            .formulario {
+                width: 90%;
+            }
+        
+            .formulario .form {
+                width: 95%;
+            }
+        
+            .formulario .etapas {
+                width: 80%;
+            }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 23px;
+    }
+
+    h6 {
+        font-size: 13px;
+    }
+
+    .menu-ul {
+        box-shadow: 2px 2px 5px #636363aa;
+    }
+
+    .formulario {
+        width: 90%;
+    }
+
+    .formulario .form {
+        width: 95%;
+    }
+
+    .formulario .etapas {
+        width: 80%;
+    }
+    .formulario .etapas .etapa .ico::after {
+left: 100%;
+width: 36%;
+    }
+
+    .formulario .etapas .etapa .ico::before {
+right: 100%;
+width: 36%;
+    }
+}
